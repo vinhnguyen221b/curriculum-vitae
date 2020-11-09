@@ -333,6 +333,16 @@ header .header-intro .intro-text .btnCV .btnContact:hover {
 .project-block .project-content .project-item .project-desc .getsite:hover {
   color: #ec008c !important;
 }
+
+.project-block .project-content .project-item .project-desc .getSource {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1rem;
+  transition: 0.5s color ease-out;
+}
+.project-block .project-content .project-item .project-desc .getSource:hover {
+  color: #ec008c !important;
+}
 .contact-block {
   padding: 4rem;
 }
