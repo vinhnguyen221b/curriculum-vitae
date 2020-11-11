@@ -327,8 +327,9 @@ header .header-intro .intro-text .btnCV .btnContact:hover {
 .project-block .project-content .project-item .project-desc .getsite {
   text-decoration: none;
   font-weight: bold;
-  padding: 1rem;
+  padding: 1rem 0.5rem;
   transition: 0.5s color ease-out;
+  display: inline-block;
 }
 .project-block .project-content .project-item .project-desc .getsite:hover {
   color: #ec008c !important;
@@ -337,8 +338,9 @@ header .header-intro .intro-text .btnCV .btnContact:hover {
 .project-block .project-content .project-item .project-desc .getSource {
   text-decoration: none;
   font-weight: bold;
-  padding: 1rem;
+  padding: 1rem 0.5rem;
   transition: 0.5s color ease-out;
+  display: inline-block;
 }
 .project-block .project-content .project-item .project-desc .getSource:hover {
   color: #ec008c !important;
@@ -406,9 +408,9 @@ header .header-intro .intro-text .btnCV .btnContact:hover {
 }
 
 @media (max-width: 768px) {
-  /* header {
+  header {
     height: unset;
-  } */
+  }
   header .header-intro {
     margin-top: 1rem;
   }
