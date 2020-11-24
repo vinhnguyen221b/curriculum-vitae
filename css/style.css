@@ -10,8 +10,8 @@ body {
   font-family: "Roboto Slab", serif;
   font-size: 16px;
   /* background: #ecdab2; */
-  background: #000000;
-  color: #ec008c;
+  background: rgb(11, 18, 30);
+  color: rgb(17, 236, 229);
 }
 
 a {
@@ -35,7 +35,7 @@ header .navbar .navbar-brand {
 }
 
 header .navbar .navbar-toggler {
-  color: #ec008c;
+  color: rgb(17, 236, 229);
 }
 
 header .navbar .navbar-toggler i {
@@ -65,7 +65,7 @@ header .navbar-nav .nav-item .nav-link::after {
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #ec008c;
+  background: rgb(17, 236, 229);
   transition: width 0.3s, left 0.3s;
   width: 0;
 }
@@ -112,8 +112,8 @@ header .header-intro .intro-text .btnCV {
 }
 header .header-intro .intro-text .btnCV a {
   background: transparent;
-  color: #ec008c;
-  border: 1px solid #ec008c;
+  color: rgb(17, 236, 229);
+  border: 1px solid rgb(17, 236, 229);
   padding: 0.5rem 1rem;
   margin-right: 0.5rem;
   border-radius: 5px;
@@ -124,9 +124,9 @@ header .header-intro .intro-text .btnCV a {
 }
 
 header .header-intro .intro-text .btnCV a:hover {
-  background-color: #ec008c;
-  color: #ffffff;
-  border: 1px solid #ec008c;
+  background-color: rgb(17, 236, 229);
+  color: rgb(11, 18, 30) !important;
+  border: 1px solid rgb(17, 236, 229);
 }
 
 header .header-intro .intro-text .btnCV .btnContact {
@@ -134,9 +134,9 @@ header .header-intro .intro-text .btnCV .btnContact {
   border: 1px solid #ffffff;
 }
 header .header-intro .intro-text .btnCV .btnContact:hover {
-  color: #ec008c !important;
-  background-color: #ffffff;
-  border: 1px solid #ffffff;
+  color: rgb(17, 236, 229) !important;
+  background-color: transparent;
+  border: 1px solid rgb(17, 236, 229);
 }
 
 .block-title {
@@ -187,7 +187,7 @@ header .header-intro .intro-text .btnCV .btnContact:hover {
 }
 
 .about-block .about-info .skills .progress-bar {
-  background-color: #ec008c;
+  background-color: rgb(17, 236, 229);
 }
 
 .about-block .about-info .skills img {
@@ -212,7 +212,7 @@ header .header-intro .intro-text .btnCV .btnContact:hover {
 .about-block .about-info .skills .workingSkill .skill {
   display: inline-block;
   text-align: center;
-  border: 1px solid #ec008c;
+  border: 1px solid rgb(17, 236, 229);
   border-radius: 10px;
   padding: 0.5rem 1rem;
   font-size: 20px;
@@ -294,7 +294,7 @@ header .header-intro .intro-text .btnCV .btnContact:hover {
 .project-block .project-content .project-item {
   background: #222222;
   height: 100%;
-  box-shadow: 0px 3px 10px 0px #ec008c;
+  box-shadow: 0px 3px 10px 0pxrgb (17, 236, 229) c;
 }
 
 .project-block .project-content .project-item .project-img a {
@@ -332,7 +332,7 @@ header .header-intro .intro-text .btnCV .btnContact:hover {
   display: inline-block;
 }
 .project-block .project-content .project-item .project-desc .getsite:hover {
-  color: #ec008c !important;
+  color: rgb(17, 236, 229) !important;
 }
 
 .project-block .project-content .project-item .project-desc .getSource {
@@ -343,7 +343,7 @@ header .header-intro .intro-text .btnCV .btnContact:hover {
   display: inline-block;
 }
 .project-block .project-content .project-item .project-desc .getSource:hover {
-  color: #ec008c !important;
+  color: rgb(17, 236, 229) !important;
 }
 .contact-block {
   padding: 4rem;
@@ -351,7 +351,7 @@ header .header-intro .intro-text .btnCV .btnContact:hover {
 .contact-block .contact-content {
   padding: 2rem;
   background: transparent;
-  box-shadow: 10px 10px 25px -4px #ec008c;
+  box-shadow: 10px 10px 25px -4px rgb(17, 236, 229);
   border-radius: 20px;
   color: white;
   font-size: 24px;
@@ -381,16 +381,16 @@ header .header-intro .intro-text .btnCV .btnContact:hover {
 
 .modal-content {
   background-color: black;
-  border: 1px solid #ec008c;
+  border: 1px solid rgb(17, 236, 229);
   color: #ffffff;
   font-size: 22px;
-  box-shadow: 10px 10px 25px -4px #ec008c;
+  box-shadow: 10px 10px 25px -4px rgb(17, 236, 229);
 }
 .modal-content .modal-header {
   border: none;
 }
 .modal-content .modal-header button span i {
-  color: #ec008c;
+  color: rgb(17, 236, 229);
 }
 
 .modal-backdrop {
@@ -472,7 +472,7 @@ header .header-intro .intro-text .btnCV .btnContact:hover {
   border: none;
   outline: none;
   background-color: transparent;
-  color: #ec008c;
+  color: rgb(17, 236, 229);
   cursor: pointer;
   padding: 0;
 }
